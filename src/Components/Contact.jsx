@@ -11,7 +11,7 @@ import { useAnimate } from "framer-motion";
 
 export const Contact = () => {
   return (
-    <div className="bg-neutral-50 px-4 py-12">
+    <div className="bg-neutral-50 h-screen px-4 py-12">
       <div className="mx-auto max-w-7xl">
         <ClipPathLinks />
       </div>{" "}
@@ -21,18 +21,18 @@ export const Contact = () => {
 
 const ClipPathLinks = () => {
   return (
-    <div className="divide-y divide-neutral-900 border border-neutral-900">
-      <div className="grid grid-cols-2 divide-x divide-neutral-900">
+    <div className="divide-y divide-primary-text border border-primary-text">
+      <div className="grid grid-cols-2 divide-x divide-primary-text">
         <LinkBox Icon={SiFacebook} href="https://facebook.com" />
         <LinkBox Icon={SiInstagram} href="https://instagram.com" />
       </div>{" "}
-      <div className="grid grid-cols-4 divide-x divide-neutral-900">
+      <div className="grid grid-cols-4 divide-x divide-primary-text">
         <LinkBox Icon={SiLinkedin} href="https://linkedin.com" />
         <LinkBox Icon={SiGmail} href="mailto:youremail@example.com" />
         <LinkBox Icon={SiGoogle} href="https://yourwebsite.com" />
         <LinkBox Icon={SiTiktok} href="https://tiktok.com" />
       </div>{" "}
-      {/* <div className="grid grid-cols-2 divide-x divide-neutral-900"></div>{" "} */}{" "}
+      {/* <div className="grid grid-cols-2 divide-x divide-primary-text"></div>{" "} */}{" "}
     </div>
   );
 };

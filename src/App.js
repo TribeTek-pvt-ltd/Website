@@ -10,7 +10,7 @@ import { Contact } from "./Components/Contact";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-primary-background">
       <ReactLenis
         root
         options={{

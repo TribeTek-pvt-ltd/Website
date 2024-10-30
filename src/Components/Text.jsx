@@ -30,7 +30,7 @@ export const VelocityText = () => {
   return (
     <section
       ref={targetRef}
-      className="h-[150vh] bg-neutral-50 text-neutral-950">
+      className="h-[150vh] bg-primary-text text-neutral-950">
       <div className="sticky top-0 flex h-[100vh] items-center overflow-hidden">
         <motion.p
           style={{ skewX, x }}
